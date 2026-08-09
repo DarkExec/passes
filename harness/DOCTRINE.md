@@ -32,6 +32,6 @@ Every intervention must name its expected future encounter point and a natural c
 
 ## 5. Compact continuously
 
-Keep `PASS.md` a short routing map. Add a deeper pattern or proof artifact only when a named trigger makes selective loading useful. Every active artifact needs an owner, route, evidence basis, and retirement condition.
+Keep the mode `AGENTS.md` a short routing map. Add a deeper pattern or proof artifact only when a named trigger makes selective loading useful. Every active artifact needs an owner, route, evidence basis, and retirement condition.
 
 When a lesson becomes executable, delete or compact the explanatory workaround. When guidance becomes stale, duplicated, unreachable, or superseded, remove it from active context while preserving only the evidence still worth keeping.
