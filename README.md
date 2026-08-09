@@ -6,10 +6,12 @@ The shared `/srv/harness-ops.md` doctrine remains authoritative for universal ow
 
 ## Included modes
 
-- `harness/PASS.md` routes a harness pass that turns a completed ordinary trajectory into faster, more reliable, and more durable future ordinary execution.
+- `harness/PASS.md` is the compact entry map for a harness pass.
 - `harness/DOCTRINE.md` defines placement, adoption, qualification, and anti-entropy rules distinctive to harness passes.
-- `efficiency/PASS.md` routes an efficiency pass that reviews the immediately preceding harness pass.
+- `harness/PLAYBOOK.md` runs one bounded completed-trajectory improvement loop.
+- `efficiency/PASS.md` is the compact entry map for an efficiency pass.
 - `efficiency/DOCTRINE.md` defines evidence, break-even, placement, qualification, and scope rules distinctive to efficiency passes.
+- `efficiency/PLAYBOOK.md` runs one bounded improvement loop over the immediately preceding harness pass.
 
 Add another mode only after recurring work demonstrates a distinct subject, output owner, evidence boundary, and stop condition.
 
@@ -49,7 +51,7 @@ Efficiency: After reading /srv/harness-ops.md, read docs/passes/efficiency/PASS.
 
 Ordinary engineering prompts must not load `docs/passes/`; ordinary agents should encounter the executable paths, tests, defaults, errors, entry routes, and procedures produced by passes rather than the meta-engineering instructions themselves.
 
-Before delivery, verify at minimum that the four mode files exist, every target-local link resolves, `PASS.md` files remain maps rather than journals, no nested Git metadata or external runtime dependency remains, `git diff --check` passes, and the target's normal validator passes. Remove the temporary seed directory after the exact installation diff has been reviewed.
+Before delivery, run `docs/passes/scripts/validate.sh docs/passes`, verify every target-local link resolves, confirm that `PASS.md` files remain maps rather than journals, ensure no nested Git metadata or external runtime dependency remains, run `git diff --check`, and run the target's normal validator. Remove the temporary seed directory after the exact installation diff has been reviewed.
 
 ## Evolving an installed copy
 
