@@ -6,10 +6,11 @@ The shared `/srv/harness-ops.md` doctrine remains authoritative for universal ow
 
 ## Included modes
 
-- `harness/PASS.md` is the compact entry map for a harness pass.
+- `AGENTS.md` is the scoped root map for using and maintaining the pass scaffold.
+- `harness/AGENTS.md` is the compact entry map for a harness pass.
 - `harness/DOCTRINE.md` defines placement, adoption, qualification, and anti-entropy rules distinctive to harness passes.
 - `harness/PLAYBOOK.md` runs one bounded completed-trajectory improvement loop.
-- `efficiency/PASS.md` is the compact entry map for an efficiency pass.
+- `efficiency/AGENTS.md` is the compact entry map for an efficiency pass.
 - `efficiency/DOCTRINE.md` defines evidence, break-even, placement, qualification, and scope rules distinctive to efficiency passes.
 - `efficiency/PLAYBOOK.md` runs one bounded improvement loop over the immediately preceding harness pass.
 
@@ -40,18 +41,18 @@ rm -rf "$pass_seed"
 
 For an existing target, compare the staged tree with its current `docs/passes/` and merge intentionally; never overwrite local pass doctrine, maps, patterns, or proof wholesale. Remove the temporary clone after reviewing the exact merge. Do not copy `.git`, configure an upstream remote, create a submodule, or leave the temporary clone behind.
 
-Customize each installed `PASS.md` as a brutally short target-local map to existing authoritative code, tests, validation, architecture, runbooks, plans, telemetry, and proof. Link existing owners before moving or rewriting them. Do not create empty pattern taxonomies or migrate history merely to fill the structure.
+Customize each installed mode `AGENTS.md` as a brutally short target-local map to existing authoritative code, tests, validation, architecture, runbooks, telemetry, and proof. Link existing owners before moving or rewriting them. Do not create empty taxonomies or migrate history merely to fill the structure.
 
 Configure the owning pass prompts with target-relative instructions:
 
 ```text
-Harness: After reading /srv/harness-ops.md, read docs/passes/harness/PASS.md from the target repository and follow its routing.
-Efficiency: After reading /srv/harness-ops.md, read docs/passes/efficiency/PASS.md from the target repository and follow its routing.
+Harness: After reading /srv/harness-ops.md, read docs/passes/harness/AGENTS.md from the target repository and follow its routing.
+Efficiency: After reading /srv/harness-ops.md, read docs/passes/efficiency/AGENTS.md from the target repository and follow its routing.
 ```
 
 Ordinary engineering prompts must not load `docs/passes/`; ordinary agents should encounter the executable paths, tests, defaults, errors, entry routes, and procedures produced by passes rather than the meta-engineering instructions themselves.
 
-Before delivery, run `docs/passes/scripts/validate.sh docs/passes`, verify every target-local link resolves, confirm that `PASS.md` files remain maps rather than journals, ensure no nested Git metadata or external runtime dependency remains, run `git diff --check`, and run the target's normal validator. Remove the temporary seed directory after the exact installation diff has been reviewed.
+Before delivery, run `docs/passes/scripts/validate.sh docs/passes`, verify every target-local link resolves, confirm that `AGENTS.md` files remain maps rather than journals, ensure no nested Git metadata or external runtime dependency remains, run `git diff --check`, and run the target's normal validator. Remove the temporary seed directory after the exact installation diff has been reviewed.
 
 ## Evolving an installed copy
 
