@@ -1,6 +1,6 @@
 # Efficiency Pass Map
 
-Read `DOCTRINE.md` in this directory completely after reading `/srv/harness-ops.md`. This map is then the entry point for reviewing the immediately preceding harness pass, not the original ordinary work.
+Read `DOCTRINE.md` in this directory completely after reading `/srv/harness-ops.md`. Use `PLAYBOOK.md` for the bounded pass. This map routes target-specific evidence; it is not the procedure or a report.
 
 ## Outcome
 
@@ -12,12 +12,13 @@ Identify the exact preceding harness turn, its intended intervention, delivered 
 
 ## Route
 
+- For the operational sequence and compact result contract, read `PLAYBOOK.md`.
 - Placement or discoverability failures belong in the harness prompt, `docs/passes/harness/`, or the ordinary owner's actual encounter path.
 - Repeated context, validation, delivery, waiting, or cleanup cost belongs in the earliest existing harness command, adapter, validator, or workflow owner.
 - Measurement meaning and comparable-cohort decisions belong in the established evaluation owner.
 - A delivered intervention awaiting later exposure belongs in its existing qualification owner, not a new document.
 
-Add target-specific telemetry and owner links only after real evidence earns them. Do not accumulate efficiency reports in this file.
+Add target-specific telemetry and owner links only after real evidence earns them. Start with one route and add another only for a distinct unresolved decision. Do not accumulate efficiency reports in this file.
 
 ## Exit
 
