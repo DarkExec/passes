@@ -2,7 +2,7 @@
 
 Passes is a copy-once bootstrap for target-owned agent pass memory. It gives each distinct meta-engineering pass a short entry map, its own focused doctrine, and room for selectively loaded patterns and proof without adding pass-only context to ordinary engineering.
 
-The shared `/srv/harness-ops.md` doctrine remains authoritative for universal ownership, safety, delivery, proof, and maintenance. This repository specializes individual pass modes. After installation, the copied files belong entirely to the target repository and must not depend on this repository, retain its Git metadata, or update automatically.
+The shared `/srv/harness-ops.md` doctrine remains authoritative for universal ownership, safety, delivery, proof, and maintenance. This repository specializes individual pass modes. Installation produces a plain standalone target-owned copy with its own history and no upstream link or automatic update behavior.
 
 ## Included modes
 
@@ -39,18 +39,18 @@ cp -a "$pass_seed/tracked/." "$target_root/docs/passes/"
 rm -rf "$pass_seed"
 ```
 
-For an existing target, compare the staged tree with its current `docs/passes/` and merge intentionally; never overwrite local pass doctrine, maps, patterns, or proof wholesale. Remove the temporary clone after reviewing the exact merge. Do not copy `.git`, configure an upstream remote, create a submodule, or leave the temporary clone behind.
+For an existing target, compare the staged tree with its current `docs/passes/` and merge intentionally, preserving target-owned doctrine, maps, patterns, and proof. After reviewing the exact merge, remove the temporary clone; the installed tree contains the selected tracked files as ordinary target-owned files.
 
-Customize each installed mode `AGENTS.md` as a brutally short target-local map to existing authoritative code, tests, validation, architecture, runbooks, telemetry, and proof. Link existing owners before moving or rewriting them. Do not create empty taxonomies or migrate history merely to fill the structure.
+Customize each installed mode `AGENTS.md` as a brutally short target-local map to existing authoritative code, tests, validation, architecture, runbooks, telemetry, and proof. Link existing owners before moving or rewriting them, and add structure only for real routes with natural retrieval triggers.
 
 Configure the owning pass prompts with target-relative instructions:
 
 ```text
 Harness: After reading /srv/harness-ops.md, read docs/passes/harness/AGENTS.md from the target repository and follow its routing.
-Efficiency: Review only the immediately preceding Harness pass following docs/passes/efficiency/AGENTS.md. Use one compact cost receipt. Within five model calls, decide whether one edit to the existing Harness prompt or map would prevent a repeated tax or failed outcome before recurrence. If yes, deliver that one edit within ten total calls; otherwise report no change and stop. Create no new artifact.
+Efficiency: Review the immediately preceding Harness pass following docs/passes/efficiency/AGENTS.md. Start from the compact cost receipt, identify the largest avoidable Harness-pass tax, and improve the earliest existing execution-path owner when its expected repeated benefit exceeds its creation and carrying cost. Deliver through the target workflow and report the evidence, change or no-op, future encounter point, and uncertainty.
 ```
 
-Ordinary engineering prompts must not load `docs/passes/`; ordinary agents should encounter the executable paths, tests, defaults, errors, entry routes, and procedures produced by passes rather than the meta-engineering instructions themselves.
+Explicit pass prompts route into `docs/passes/`. Ordinary engineering prompts route directly to the executable paths, tests, defaults, errors, entry routes, and procedures produced by passes.
 
 Before delivery, run `docs/passes/scripts/validate.sh docs/passes`, verify every target-local link resolves, confirm that `AGENTS.md` files remain maps rather than journals, ensure no nested Git metadata or external runtime dependency remains, run `git diff --check`, and run the target's normal validator. Remove the temporary seed directory after the exact installation diff has been reviewed.
 
@@ -58,4 +58,4 @@ Before delivery, run `docs/passes/scripts/validate.sh docs/passes`, verify every
 
 Installed copies evolve from their own trajectories. Project-specific learning stays with the project. When evidence from multiple projects supports a genuinely general pass principle, propose it to this repository through normal review so future installations benefit.
 
-Existing installations never inherit upstream changes automatically. Adopt a later upstream improvement only as a reviewed target-owned change, preserving local owners and deleting or compacting superseded guidance.
+Existing installations adopt later upstream improvements only as reviewed target-owned changes that preserve local owners and delete or compact superseded guidance.

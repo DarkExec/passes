@@ -17,7 +17,12 @@ for mode, subject in (("harness", "ordinary"), ("efficiency", "harness")):
     doctrine = (root / mode / "DOCTRINE.md").read_text()
     playbook = (root / mode / "PLAYBOOK.md").read_text()
     assert "DOCTRINE.md" in map_text and "PLAYBOOK.md" in map_text
-    for heading in ("## Read first", "## Boundary", "## Rules", "## Current decision status", "## Validate and exit"):
+    headings = (
+        ("## Start here", "## Working loop", "## Ownership and qualification")
+        if mode == "harness"
+        else ("## Start here", "## Working loop", "## Qualification")
+    )
+    for heading in headings:
         assert heading in map_text
     assert "/srv/harness-ops.md" in doctrine
     assert "earliest" in playbook.lower() and "intervention" in playbook.lower()

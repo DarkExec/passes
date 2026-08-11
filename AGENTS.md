@@ -1,6 +1,6 @@
 # Passes
 
-This directory owns agent-facing methodology for distinct meta-engineering passes. It is a map, not a manual or evidence archive. Ordinary engineering must not load this subtree unless the request is explicitly a pass or changes the pass scaffold itself.
+This directory owns agent-facing methodology for distinct meta-engineering passes. It is a map, not a manual or evidence archive, and enters execution only for explicit pass or scaffold work.
 
 ## Request routing
 
@@ -23,7 +23,7 @@ Start with one route. Add another only for a distinct unresolved decision.
 
 - Target truth and project-specific learning stay with the installed target; this seed owns only reusable bootstrap behavior.
 - Comparative and causal evaluation stays with the target's independent evaluation owner.
-- Do not create empty taxonomies, duplicate target contracts, accumulate pass reports in active maps, or make an installed copy depend on this repository.
+- Keep the seed lean: every route has a real owner and retrieval trigger, installed copies are standalone, and delivery history stays in Git rather than active maps.
 - Existing installations adopt later seed changes only through intentional target-owned review.
 
 ## Validation

@@ -1,31 +1,25 @@
 # Harness Pass
 
-Harness Pass holds intervention intent, future encounter routes, and qualification contracts for one completed ordinary-engineering trajectory. It does not own product implementation, independent evaluation, runtime lifecycle, or session archives.
+Review one completed ordinary-engineering trajectory and turn its highest-leverage avoidable cost into a durable improvement encountered by future ordinary agents.
 
-## Read first
+## Start here
 
-- Read `DOCTRINE.md` completely for placement, qualification, and anti-entropy invariants.
-- Read `PLAYBOOK.md` before improving one completed ordinary trajectory.
-- Read the target's applicable `AGENTS.md` before changing its execution path.
-- If the installed target maps a compact current-state command, run it once before opening broad history or raw telemetry.
+- Use the target's compact trajectory and cost receipt first.
+- Start at the target's ordinary agent map, resolve the owner of the selected cost, and load only the context needed to place and prove the improvement.
+- Route to `DOCTRINE.md` for an unresolved placement, carrying-cost, or artifact decision and `PLAYBOOK.md` for an unresolved intervention step.
 
-## Boundary
+## Working loop
 
-- Harness Pass owns one observed execution tax, one intervention hypothesis, its expected future encounter point, and the later `retain`, `revise`, or `remove` question.
-- The ordinary target owns code, commands, defaults, errors, tests, maps, runbooks, delivery, and claim-matched proof.
-- The independent evaluation owner owns comparative, causal, and longitudinal conclusions.
+1. Select the most consequential cost the completed trajectory actually encountered and establish why it is likely to recur or important enough to prevent.
+2. Locate the earliest authoritative code, command, default, error, test, map, or runbook that a comparable ordinary agent encounters before paying that cost.
+3. Prefer the smallest change that makes the efficient path natural with low carrying cost. Guidance counts as prevention only when ordinary execution routes through it before the failure.
+4. Place the improvement once in that owner. Use a pass artifact only when it has a specific unresolved decision, natural retrieval trigger, and no cheaper execution owner.
+5. Run focused proof and required validation, deliver through the owning workflow, and report the cost, intervention, encounter point, expected benefit, and uncertainty.
 
-## Rules
+An evidence-backed no-op is the right result when the current ordinary path already prevents the cost, the event is genuinely isolated, or no credible intervention clears the worth gate.
 
-- Start from the completed trajectory and select at most one coherent earliest-owner intervention.
-- Prefer executable behavior and deterministic guards over prose; documentation counts only on a demonstrated required route.
-- Do not replay product work merely to manufacture evidence, turn delivery into behavioral qualification, or encode incident-shaped prohibitions when one owner can make the correct path natural.
-- A verified no-op is valid when the existing owner already closes the gap or no intervention has a credible future encounter point.
+## Ownership and qualification
 
-## Current decision status
+The ordinary target owns implementation and proof; the independent evaluation owner owns comparative and realized-efficiency conclusions. Harness work uses completed product evidence and qualifies through later natural exposure.
 
-Resolve the ordinary outcome, delivered identity, proof boundary, observed tax, proposed encounter point, active intervention, and promised natural exposure. Load only material required by a named missing fact. Record intervention `available`, `retrieved`, `invoked`, and `relevant` separately when later evidence exists.
-
-## Validate and exit
-
-Run the scaffold validator and the target's normal checks. Deliver through the owning workflow, verify artifact identity and cleanup, state active surfaces added and retired, and leave the decision `pending` until a later comparable exposed trajectory supports `retain`, `revise`, or `remove`.
+Git history carries delivery evidence. Resolve a prior `retain`, `revise`, or `remove` decision when the selected trajectory naturally encounters that intervention.
