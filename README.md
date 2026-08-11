@@ -47,7 +47,7 @@ Configure the owning pass prompts with target-relative instructions:
 
 ```text
 Harness: After reading /srv/harness-ops.md, read docs/passes/harness/AGENTS.md from the target repository and follow its routing.
-Efficiency: After reading /srv/harness-ops.md, read docs/passes/efficiency/AGENTS.md from the target repository and follow its routing.
+Efficiency: Review only the immediately preceding Harness pass following docs/passes/efficiency/AGENTS.md. Use one compact cost receipt. Within five model calls, decide whether one edit to the existing Harness prompt or map would prevent a repeated tax or failed outcome before recurrence. If yes, deliver that one edit within ten total calls; otherwise report no change and stop. Create no new artifact.
 ```
 
 Ordinary engineering prompts must not load `docs/passes/`; ordinary agents should encounter the executable paths, tests, defaults, errors, entry routes, and procedures produced by passes rather than the meta-engineering instructions themselves.
